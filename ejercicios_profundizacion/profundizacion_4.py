@@ -81,3 +81,26 @@ Alumno:
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+nombre_completo_1 = str(input('*Ingrese el nombre completo del padre/madre/tutor: '))
+print('El nombre ingresado es:',nombre_completo_1)
+nombre_completo_2 = str(input('*Ingrese el nombre completo del otro padre/madre/tutor: '))
+print('El nombre ingresado es:',nombre_completo_2)
+nombre = str(input('*Ingrese el nombre del hijo: '))
+print('El nombre ingresado es:',nombre)
+
+#Dejo estos * para que haya un espacio entre lo ingresado y los resultados
+print('*************')
+
+nombre_1,apellido_1 = nombre_completo_1.split(" ") #se necesita doble comilla, no toma la simple
+print('El nombre del primer tutor ingresado es:',nombre_1, 'y el apellido es:',apellido_1)
+
+print('*************')
+
+nombre_2,apellido_2 = nombre_completo_2.split(" ")
+print('El nombre del segundo tutor ingresado es:',nombre_2,'y el apellido es:',apellido_2)
+
+print('*************')
+
+hijo = nombre + ' '+ apellido_1 + ' ' + apellido_2
+print('El nombre del hijo seria:',hijo)

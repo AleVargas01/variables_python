@@ -63,3 +63,20 @@ Alumno:
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+nombre_completo = str(input('*Ingrese nombre completo: '))
+print('El nombre completo que ingreso es:',nombre_completo)
+
+#Dejo estos * para que haya un espacio entre lo ingresado y los resultados
+
+print('**********')
+nombre_lower = nombre_completo.lower()
+print('El nombre completo en MINUSCULA es:',nombre_lower)
+print('**********')
+
+nombre_upper = nombre_completo.upper()
+print('El nombre completo en MAYUSCULA es:',nombre_upper)
+print('**********')
+
+nombre_capitalize = nombre_completo.capitalize()
+print('El nombre con la primera letra en MAYUSCULA es:',nombre_capitalize)

@@ -46,3 +46,23 @@ Alumno:
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+numero_1 = float(input('Ingrese el primer numero:'))
+numero_2 = float(input('Ingrese el segundo numero:'))
+
+suma  = numero_1 + numero_2
+resta = numero_1 - numero_2
+multiplicacion = numero_1 * numero_2
+division = numero_1 / numero_2
+potencia = numero_1 ** numero_2
+
+print("El rsultado de la suma es:",suma)
+#Dejo estos * para que haya un espacio entre lo ingresado y los resultados
+print('*************')
+print('El resultado de la resta es:',resta)
+print('*************')
+print('El resultado de la multiplicacion es:',multiplicacion)
+print('*************')
+print('El resultado de la division es:',division)
+print('*************')
+print('El resultado de la potencia es:',potencia)
